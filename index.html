@@ -15,7 +15,7 @@
             color: white;
             padding: 20px;
             text-align: center;
-            font-size: 24px;
+            font-size: 28px;
         }
         nav {
             text-align: center;
@@ -27,18 +27,33 @@
             color: #2E86C1;
             font-weight: bold;
         }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
         section {
-            padding: 40px;
-            text-align: center;
+            padding: 20px 0;
+            text-align: left;
         }
         h1, h2 {
             color: #2E86C1;
+            text-align: left;
+        }
+        .profile-pic {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-pic img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
         }
         .skills, .experience, .education, .certifications {
             background-color: #f4f4f4;
-            margin: 20px 0;
             padding: 20px;
             border-radius: 8px;
+            margin: 20px 0;
         }
         .experience-item, .education-item {
             background-color: white;
@@ -66,65 +81,71 @@
     Ashvin Mahajan - Data Engineer
 </header>
 
-<nav>
-    <a href="#skills">Skills</a>
-    <a href="#experience">Experience</a>
-    <a href="#education">Education</a>
-    <a href="#certifications">Certifications</a>
-</nav>
-
-<section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-        <p><strong>Database/DWH:</strong> Snowflake, Teradata, AWS Redshift</p>
-        <p><strong>ETL Tools:</strong> Ab Initio, Informatica Cloud IICS, AWS Glue</p>
-        <p><strong>Languages/OS:</strong> SQL, Linux, PostgreSQL, Bash, Python</p>
-        <p><strong>Tools/Technologies:</strong> Putty, Autosys, GitHub, Jira, Rally, Excel</p>
-        <p><strong>Other Skills:</strong> Big Data, RDBMS, Structured Data, Data Warehousing, Cloud Migration, Data Pipelining</p>
+<div class="container">
+    <div class="profile-pic">
+        <img src="path_to_your_image.jpg" alt="Ashvin Mahajan">
     </div>
-</section>
 
-<section id="experience">
-    <h2>Work Experience</h2>
-    <div class="experience">
-        <div class="experience-item">
-            <h3>Data Engineer - Accenture, Pune</h3>
-            <p><strong>Project - Travelers (American Insurance Company)</strong> | Oct 2022 - Jul 2024</p>
-            <ul>
-                <li>Migrated data from Teradata to Snowflake using Ab Initio ETL tools.</li>
-                <li>Developed user-defined functions in Snowflake to resolve data discrepancies.</li>
-                <li>Automated the data gathering process for 200 subprocesses.</li>
-            </ul>
+    <nav>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+    </nav>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <p><strong>Database/DWH:</strong> Snowflake, Teradata, AWS Redshift</p>
+            <p><strong>ETL Tools:</strong> Ab Initio, Informatica Cloud IICS, AWS Glue</p>
+            <p><strong>Languages/OS:</strong> SQL, Linux, PostgreSQL, Bash, Python</p>
+            <p><strong>Tools/Technologies:</strong> Putty, Autosys, GitHub, Jira, Rally, Excel</p>
+            <p><strong>Other Skills:</strong> Big Data, RDBMS, Structured Data, Data Warehousing, Cloud Migration, Data Pipelining</p>
         </div>
-        <div class="experience-item">
-            <h3>Project - Alight Solutions</h3>
-            <p>Jun 2021 - Oct 2022</p>
-            <ul>
-                <li>Developed ETL packages using IICS for AWS S3/Redshift.</li>
-                <li>Built SQL queries and task flows for data quality checks.</li>
-            </ul>
-        </div>
-    </div>
-</section>
+    </section>
 
-<section id="education">
-    <h2>Education</h2>
-    <div class="education">
-        <div class="education-item">
-            <h3>Computer Engineering (BE)</h3>
-            <p>Savitribai Phule Pune University | Sep 2016 - Sep 2020</p>
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="experience">
+            <div class="experience-item">
+                <h3>Data Engineer - Accenture, Pune</h3>
+                <p><strong>Project - Travelers (American Insurance Company)</strong> | Oct 2022 - Jul 2024</p>
+                <ul>
+                    <li>Migrated data from Teradata to Snowflake using Ab Initio ETL tools.</li>
+                    <li>Developed user-defined functions in Snowflake to resolve data discrepancies.</li>
+                    <li>Automated the data gathering process for 200 subprocesses.</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Project - Alight Solutions</h3>
+                <p>Jun 2021 - Oct 2022</p>
+                <ul>
+                    <li>Developed ETL packages using IICS for AWS S3/Redshift.</li>
+                    <li>Built SQL queries and task flows for data quality checks.</li>
+                </ul>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<section id="certifications">
-    <h2>Certifications</h2>
-    <div class="certifications">
-        <p>AWS Certified Solutions Architect Associate</p>
-        <p>Snowflake SnowPro Core Certification</p>
-        <p>Snowflake Hands-on Badges</p>
-    </div>
-</section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <div class="education-item">
+                <h3>Computer Engineering (BE)</h3>
+                <p>Savitribai Phule Pune University | Sep 2016 - Sep 2020</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certifications">
+            <p>AWS Certified Solutions Architect Associate</p>
+            <p>Snowflake SnowPro Core Certification</p>
+            <p>Snowflake Hands-on Badges</p>
+        </div>
+    </section>
+</div>
 
 <footer>
     <p>Connect with me on: 
