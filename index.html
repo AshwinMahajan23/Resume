@@ -6,74 +6,132 @@
     <title>Ashvin Mahajan - Data Engineer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2E86C1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #2E86C1;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
         }
         h1, h2 {
             color: #2E86C1;
         }
-        .section {
-            margin-bottom: 20px;
+        .skills, .experience, .education, .certifications {
+            background-color: #f4f4f4;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
         }
-        ul {
-            list-style-type: none;
-            padding-left: 0;
+        .experience-item, .education-item {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin: 10px 0;
         }
-        li {
-            margin-bottom: 5px;
+        footer {
+            background-color: #2E86C1;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        footer a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
         }
     </style>
 </head>
 <body>
-    <h1>Ashvin Mahajan</h1>
-    <p><strong>Data Engineer</strong></p>
-    <p>Pune | ashwinmahajan23@gmail.com | 7758844288 | <a href="https://linkedin.com/in/ashwinmahajan23">linkedin.com/in/ashwinmahajan23</a></p>
-    
-    <div class="section">
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Database/DWH:</strong> Snowflake, Teradata, AWS Redshift</li>
-            <li><strong>ETL Tools:</strong> Ab Initio, Informatica Cloud IICS, AWS Glue</li>
-            <li><strong>Languages/OS:</strong> SQL, Linux, PostgreSQL, Bash, Python</li>
-            <li><strong>Tools/Technologies:</strong> Putty, Autosys, GitHub, Jira, Rally, Excel</li>
-            <li><strong>Other Skills:</strong> Big Data, RDBMS, Structured Data, Data Warehousing, Cloud Migration, Data Pipelining, Data Orchestration, Data Analytics, Agile Methodologies</li>
-            <li><strong>Soft Skills:</strong> Project Management, Communication, Leadership, Time Management, Curiosity, Adaptability, Problem Solving, Teamwork, Creativity, Flexibility</li>
-        </ul>
-    </div>
 
-    <div class="section">
-        <h2>Work Experience</h2>
-        <h3>Data Engineer (Accenture, Pune) - June 2021 - July 2024</h3>
-        <p><strong>Project - Travelers (American Insurance Company)</strong> | Oct 2022 - Jul 2024</p>
-        <ul>
-            <li>Migrated data from Teradata to Snowflake using Ab Initio ETL tools.</li>
-            <li>Handled data integration, SQL conversion, and cloud environment setup.</li>
-            <li>Automated data process requirements, improving efficiency by 95%.</li>
-            <li>Developed user-defined functions in Snowflake for 100% data accuracy.</li>
-            <li>Migrated 30 sub-applications to the cloud.</li>
-        </ul>
+<header>
+    Ashvin Mahajan - Data Engineer
+</header>
 
-        <p><strong>Project - Alight Solutions (Employee Benefits and HR services)</strong> | Jun 2021 - Oct 2022</p>
-        <ul>
-            <li>Developed ETL packages using IICS to automate data flows on AWS S3/Redshift.</li>
-            <li>Built SQL queries from business mapping specifications and performed data quality checks.</li>
-            <li>Migrated Informatica flows to Redshift.</li>
-        </ul>
-    </div>
+<nav>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#certifications">Certifications</a>
+</nav>
 
-    <div class="section">
-        <h2>Certifications</h2>
-        <ul>
-            <li>AWS Certified Solutions Architect Associate</li>
-            <li>Snowflake SnowPro Core Certification</li>
-            <li>Snowflake Hands-on Badges</li>
-        </ul>
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <p><strong>Database/DWH:</strong> Snowflake, Teradata, AWS Redshift</p>
+        <p><strong>ETL Tools:</strong> Ab Initio, Informatica Cloud IICS, AWS Glue</p>
+        <p><strong>Languages/OS:</strong> SQL, Linux, PostgreSQL, Bash, Python</p>
+        <p><strong>Tools/Technologies:</strong> Putty, Autosys, GitHub, Jira, Rally, Excel</p>
+        <p><strong>Other Skills:</strong> Big Data, RDBMS, Structured Data, Data Warehousing, Cloud Migration, Data Pipelining</p>
     </div>
+</section>
 
-    <div class="section">
-        <h2>Education</h2>
-        <p><strong>Computer Engineering (BE)</strong> | Savitribai Phule Pune University (Pune) | Sep 2016 - Sep 2020</p>
+<section id="experience">
+    <h2>Work Experience</h2>
+    <div class="experience">
+        <div class="experience-item">
+            <h3>Data Engineer - Accenture, Pune</h3>
+            <p><strong>Project - Travelers (American Insurance Company)</strong> | Oct 2022 - Jul 2024</p>
+            <ul>
+                <li>Migrated data from Teradata to Snowflake using Ab Initio ETL tools.</li>
+                <li>Developed user-defined functions in Snowflake to resolve data discrepancies.</li>
+                <li>Automated the data gathering process for 200 subprocesses.</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Project - Alight Solutions</h3>
+            <p>Jun 2021 - Oct 2022</p>
+            <ul>
+                <li>Developed ETL packages using IICS for AWS S3/Redshift.</li>
+                <li>Built SQL queries and task flows for data quality checks.</li>
+            </ul>
+        </div>
     </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="education">
+        <div class="education-item">
+            <h3>Computer Engineering (BE)</h3>
+            <p>Savitribai Phule Pune University | Sep 2016 - Sep 2020</p>
+        </div>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications">
+        <p>AWS Certified Solutions Architect Associate</p>
+        <p>Snowflake SnowPro Core Certification</p>
+        <p>Snowflake Hands-on Badges</p>
+    </div>
+</section>
+
+<footer>
+    <p>Connect with me on: 
+        <a href="https://linkedin.com/in/ashwinmahajan23">LinkedIn</a> |
+        <a href="mailto:ashwinmahajan23@gmail.com">Email</a>
+    </p>
+</footer>
+
 </body>
 </html>
